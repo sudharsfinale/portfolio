@@ -34,15 +34,15 @@ const Hero = () => {
               </h1>
               <h1>Into Real Projects</h1>
               <h1>that Deliver Results</h1>
-              <p className="text-white-50 md:text-xl relative z-10">
+            </div>
+              <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
                 Hi I am Sudharsan, a developer with a passion for code
               </p>
               <Button
-                text="See my Work"
+                text="See My Work"
                 className="md:w-80 md:h-16 w-60 h-12"
-                id="button"
+                id="counter"
               />
-            </div>
           </div>
         </header>
         {/* RIGHT: 3D CONTENT */}
