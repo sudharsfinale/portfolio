@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+import HeroExperience from "../components/HeroModules/HeroExperience";
 import { words } from "../constants";
 
 const Hero = () => {
@@ -46,6 +47,11 @@ const Hero = () => {
           </div>
         </header>
         {/* RIGHT: 3D CONTENT */}
+        <figure>
+          <div className="hero-3d-layout">
+            <HeroExperience />
+          </div>
+        </figure>
       </div>
       {/* {words.map(item => )} */}
     </section>
